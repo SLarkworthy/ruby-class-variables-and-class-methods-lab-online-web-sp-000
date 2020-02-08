@@ -44,7 +44,7 @@ class Song
       if !artist_hash.key?(artist)
         artist_hash[artist] = 1
       elsif artist_hash.key?(artist)
-        genre_artist[artist] += 1
+        artist_hash[artist] += 1
       end
     end
     artist_hash
