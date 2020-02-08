@@ -14,4 +14,7 @@ class Song
     @@count
   end
   
+  def self.assert_generates
+  end
+  
 end
