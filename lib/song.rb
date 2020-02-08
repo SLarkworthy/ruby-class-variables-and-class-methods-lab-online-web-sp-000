@@ -2,9 +2,8 @@ class Song
   attr_accessor :name, :artist, :genre
   
   @@count = 0
-  @@genres = []rtfgggggggbgvvvvvvvvvvv;,m
-  
-  def initialize(name, artist, genre)
+  # @@genres = []rtfgggggggbgvvvvvvvvvvv;,m][kiolku]
+  # kiolkurtist, genre)
     @name = name
     @artist = artist
     @genre = genre
