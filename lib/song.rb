@@ -2,8 +2,9 @@ class Song
   attr_accessor :name, :artist, :genre
   
   @@count = 0
-  # @@genres = []rtfgggggggbgvvvvvvvvvvv;,m][kiolku]
-  # kiolkurtist, genre)
+  @@genres = []
+
+  def initiali
     @name = name
     @artist = artist
     @genre = genre
