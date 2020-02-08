@@ -42,12 +42,12 @@ class Song
     artist_hash = {}
     @@artists.each do |artist|
       if !artist_hash.key?(artist)
-        genre_hash[genre] = 1
-      elsif genre_hash.key?(genre)
-        genre_hash[genre] += 1
+        artist_hash[artist] = 1
+      elsif artist_hash.key?(artist)
+        genre_artist[artist] += 1
       end
     end
-    genre_hash
+    artist_hash
   end
   
 end
